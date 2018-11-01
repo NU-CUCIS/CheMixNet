@@ -7,7 +7,7 @@ The second neural architecture have 3 flavors:
 3. CNN-RNN (CNN followed by LSTM or GRU)
 
 <p align="center">
-  <img src="images/model.pdf" width="350" title="hover text">
+  <img src="images/model.pdf" width="350">
 </p>
 
 The proposed architecture performs better than other state of the art architectures such as SMILES2vec, Chemception, ConvGraph etc. 
