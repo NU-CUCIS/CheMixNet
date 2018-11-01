@@ -11,3 +11,12 @@ The second neural architecture have 3 flavors:
 </p>
 
 The proposed architecture performs better than other state of the art architectures such as SMILES2vec, Chemception, ConvGraph etc. 
+
+Requirements: 
+1. Keras 2.0 or higher
+2. Tensorflow 1.7 
+3. RDKit 2017.09.1
+4. Scikit-Learn 0.19.1
+5. Numpy 1.14
+6. Pandas 0.22
+7. DeepChem 2.1 (for benchmarking against convolutional graph networks) 
