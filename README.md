@@ -20,3 +20,9 @@ Requirements:
 5. Numpy 1.14
 6. Pandas 0.22
 7. DeepChem 2.1 (for benchmarking against convolutional graph networks) 
+
+## Citation
+If you use this code or data, please cite:
+
+CheMixNet method paper:
+Arindam Paul, Dipendra Jha, Reda Al-Bahrani, Wei-keng Liao, Alok Choudhary, Ankit Agrawal. CheMixNet: Mixed DNN Architectures for Predicting Chemical Properties using Multiple Molecular Representations. Thirty-second Conference on Neural Information Processing Systems, 2018, DOI:  https://arxiv.org/abs/1811.08283
