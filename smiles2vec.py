@@ -3,10 +3,11 @@ from ml_util import *
 
 embedding_vector_length, max_length, vocab_size = 32, 83, 23
 
-"""
-Module that creates a 1-D CNN followed by GRU for property prediction from SMILES
-"""
+
 def CNN_GRU_model(X,Y, dropout=0, epochs=10, batch_size=32):
+    """
+    Module that creates a 1-D CNN followed by GRU for property prediction from SMILES
+    """
     model = Sequential()
     model.add(Embedding(max_length, embedding_vector_length, input_length=max_length))
     model.add(Conv1D(filters=32, kernel_size=3, padding='same', activation='relu'))
@@ -20,11 +21,12 @@ def CNN_GRU_model(X,Y, dropout=0, epochs=10, batch_size=32):
     save_model("cnn_gru", model, history, dropout, epochs, batch_size)
     return model
 
-"""
-Module that creates a 1-D CNN followed by LSTM for property prediction from SMILES
-"""
+
 
 def CNN_LSTM_model(X,Y, dropout=0, epochs=10, batch_size=32):
+    """
+    Module that creates a 1-D CNN followed by LSTM for property prediction from SMILES
+    """
     model = Sequential()
     model.add(Embedding(max_length, embedding_vector_length, input_length=max_length))
     model.add(Conv1D(filters=32, kernel_size=3, padding='same', activation='relu'))
@@ -60,11 +62,12 @@ def CNN_LSTM_model(X,Y, dropout=0, epochs=10, batch_size=32):
     #epochs=epochs, batch_size=batch_size, verbose=1, callbacks=[early_stop])
 
 
-"""
-Module that creates a 2 layer GRU for property prediction from SMILES
-"""
+
 
 def GRU2_model(X,Y, dropout=0, epochs=10, batch_size=32):
+    """
+    Module that creates a 2 layer GRU for property prediction from SMILES
+    """
     model = Sequential()
     model.add(Embedding(max_length, embedding_vector_length, input_length=max_length))
 
@@ -79,11 +82,12 @@ def GRU2_model(X,Y, dropout=0, epochs=10, batch_size=32):
     save_model("gru_2layer", model, history, dropout, epochs, batch_size)
     return model
 
-"""
-Module that creates a 2 layer LSTM for property prediction from SMILES
-"""
+
 
 def LSTM2_model(X,Y, dropout=0, epochs=10, batch_size=32):
+    """
+    Module that creates a 2 layer LSTM for property prediction from SMILES
+    """
     model = Sequential()
     model.add(Embedding(max_length, embedding_vector_length, input_length=max_length))
 
@@ -98,10 +102,11 @@ def LSTM2_model(X,Y, dropout=0, epochs=10, batch_size=32):
     save_model("lstm_2layer", model, history, dropout, epochs, batch_size)
     return model
 
-"""
-Module that creates a 1 layer GRU for property prediction from SMILES
-"""
 def GRU_model(X,Y, dropout=0, epochs=10, batch_size=32):
+
+    """
+    Module that creates a 1 layer GRU for property prediction from SMILES
+    """
     model = Sequential()
     model.add(Embedding(max_length, embedding_vector_length, input_length=max_length))
 
@@ -115,10 +120,11 @@ def GRU_model(X,Y, dropout=0, epochs=10, batch_size=32):
     save_model("gru_1layer", model, history, dropout, epochs, batch_size)
     return model
 
-"""
-Module that creates a 1 layer LSTM for property prediction from SMILES
-"""
+
 def LSTM_model(X,Y, dropout=0, epochs=10, batch_size=32):
+    """
+    Module that creates a 1 layer LSTM for property prediction from SMILES
+    """
     model = Sequential()
     model.add(Embedding(max_length, embedding_vector_length, input_length=max_length))
 
@@ -170,8 +176,6 @@ if __name__ == "__main__":
     HOMO = loadNumpy('HOMO_1_7')
     print("Loaded Data...")
 
-    #smiles_onehot_encoding = loadNumpy("smiles_onehot_encoding")
-    #smiles_sequences = sequence.pad_sequences(smiles_onehot_encoding, maxlen=83)
 
     if args.size:
         size = float(args.size)
@@ -187,6 +191,8 @@ if __name__ == "__main__":
     # print(X[0],Y[0])
     X_train, X_test, Y_train, Y_test = train_test_split(X,Y, random_state=1024)
     # print(X_train[0],Y_train[0])
+
+    ## Assigning the architecture based on arguments
     model_type = args.model
     if model_type =="lstm":
         layers = args.layers
