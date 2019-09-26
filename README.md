@@ -30,3 +30,7 @@ Arindam Paul, Dipendra Jha, Reda Al-Bahrani, Wei-keng Liao, Alok Choudhary, Anki
 ## Questions/Comments:
 
 email: apaul@u.northwestern.edu
+
+Copyright (C) 2019, Northwestern University.
+
+See COPYRIGHT notice in top-level directory.
