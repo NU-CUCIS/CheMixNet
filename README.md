@@ -21,6 +21,11 @@ Requirements:
 6. Pandas 0.22
 7. DeepChem 2.1 (for benchmarking against convolutional graph networks) 
 
+## Developer Team
+
+The code was developed by <a href="http://www.arindampaul.me/">Arindam Paul</a> by the <a href="http://cucis.ece.northwestern.edu/">CUCIS</a> group at the Electrical and Computer Engineering Department at Northwestern University. 
+
+
 ## Citation
 If you use this code or data, please cite:
 
@@ -34,3 +39,7 @@ email: apaul@u.northwestern.edu
 Copyright (C) 2019, Northwestern University.
 
 See COPYRIGHT notice in top-level directory.
+
+## Funding Support
+
+This work was performed under the following financial assistance award 70NANB19H005 from U.S. Department of Commerce, National Institute of Standards and Technology as part of the Center for Hierarchical Materials Design (CHiMaD). Partial support is also acknowledged from DOE awards DE-SC0014330, DE-SC0019358.
