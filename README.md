@@ -23,7 +23,7 @@ Requirements:
 
 ## Developer Team
 
-The code was developed by <a href="http://www.arindampaul.me/">Arindam Paul</a> by the <a href="http://cucis.ece.northwestern.edu/">CUCIS</a> group at the Electrical and Computer Engineering Department at Northwestern University. 
+The code was developed <a href="http://www.arindampaul.me/">Arindam Paul</a> by the <a href="http://cucis.ece.northwestern.edu/">CUCIS</a> group at the Electrical and Computer Engineering Department at Northwestern University. 
 
 
 ## Citation
