@@ -1,7 +1,7 @@
 from dl_util import *
 from ml_util import *
 
-from eval_class_util import *
+from chemixnet_util import *
 
 def split_fit_plot_predict(model_arch, X1, X2, Y, vocab, max_len, prefix, dropout=0,\
                         gate=None, optimizer="adam", lr=0.001, epochs=20,batch_size=32):
