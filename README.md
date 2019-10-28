@@ -23,11 +23,11 @@ Requirements:
 ## List of Files
 
 #### Core Files
-chemixnet_util.py : Core module containing CheMixNet architecture 
-run_eval.py : Module for evaluating CheMixNet across datasets 
-dl_util.py : Utility file for running basic deep learning modules
-rdkit_util.py : Utility file for RDKIT functions (RDKIT is a molecular informatics python library)
-ml_util.py : Utility file for running basic machine learning modules
+* chemixnet_util.py : Core module containing CheMixNet architecture 
+* run_eval.py : Module for evaluating CheMixNet across datasets 
+* dl_util.py : Utility file for running basic deep learning modules
+* rdkit_util.py : Utility file for RDKIT functions (RDKIT is a molecular informatics python library)
+* ml_util.py : Utility file for running basic machine learning modules
 
 #### Jupyter Notebooks
 
@@ -37,8 +37,8 @@ ml_util.py : Utility file for running basic machine learning modules
 * eval_tox.ipynb : Notebook for evaluating the results of CheMixNet on the Tox21 dataset 
 
 #### Additional Files
-fp_fc.py : Module for fully connected network developed on fingerprints
-smiles_nn.py: Module for CNN or RNN network on SMILES
+* fp_fc.py : Module for fully connected network developed on fingerprints
+* smiles_nn.py: Module for CNN or RNN network on SMILES
 
 ## Developer Team
 
