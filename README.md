@@ -19,7 +19,26 @@ Requirements:
 4. Scikit-Learn 0.19.1
 5. Numpy 1.14
 6. Pandas 0.22
-7. DeepChem 2.1 (for benchmarking against convolutional graph networks) 
+
+## List of Files
+
+#### Core Files
+chemixnet_util.py : Core module containing CheMixNet architecture 
+run_eval.py : Module for evaluating CheMixNet across datasets 
+dl_util.py : Utility file for running basic deep learning modules
+rdkit_util.py : Utility file for RDKIT functions (RDKIT is a molecular informatics python library)
+ml_util.py : Utility file for running basic machine learning modules
+
+#### Jupyter Notebooks
+
+eval_esol.ipynb : Notebook for evaluating the results of CheMixNet on the ESOL dataset 
+eval_hiv.ipynb : Notebook for evaluating the results of CheMixNet on the HIV dataset 
+eval_freesolv.ipynb : Notebook for evaluating the results of CheMixNet on the FreeSolv datasets (Experimental and Calculated)
+eval_tox.ipynb : Notebook for evaluating the results of CheMixNet on the Tox21 dataset 
+
+#### Additional Files
+fp_fc.py : Module for fully connected network developed on fingerprints
+smiles_nn.py: Module for CNN or RNN network on SMILES
 
 ## Developer Team
 
