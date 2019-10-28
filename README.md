@@ -31,10 +31,10 @@ ml_util.py : Utility file for running basic machine learning modules
 
 #### Jupyter Notebooks
 
-eval_esol.ipynb : Notebook for evaluating the results of CheMixNet on the ESOL dataset 
-eval_hiv.ipynb : Notebook for evaluating the results of CheMixNet on the HIV dataset 
-eval_freesolv.ipynb : Notebook for evaluating the results of CheMixNet on the FreeSolv datasets (Experimental and Calculated)
-eval_tox.ipynb : Notebook for evaluating the results of CheMixNet on the Tox21 dataset 
+* eval_esol.ipynb : Notebook for evaluating the results of CheMixNet on the ESOL dataset 
+* eval_hiv.ipynb : Notebook for evaluating the results of CheMixNet on the HIV dataset 
+* eval_freesolv.ipynb : Notebook for evaluating the results of CheMixNet on the FreeSolv datasets (Experimental and Calculated)
+* eval_tox.ipynb : Notebook for evaluating the results of CheMixNet on the Tox21 dataset 
 
 #### Additional Files
 fp_fc.py : Module for fully connected network developed on fingerprints
