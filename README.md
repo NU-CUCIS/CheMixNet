@@ -1,5 +1,5 @@
 # CheMixNet
-CheMixNet is a general-purpose neural network that combines two neural architectures (illustrated below). 
+CheMixNet is a general-purpose neural network architecture that combines two neural architectures (illustrated below). 
 The first neural architecture is a fully connected multi-layer perceptron network trained on molecular fingerprints. 
 The second neural architecture is trained on SMILES sequences and have 3 choices for their neural architecture: 
 1. CNN
