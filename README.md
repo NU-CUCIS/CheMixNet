@@ -44,6 +44,13 @@ Requirements:
 
 The code was developed by the <a href="http://cucis.ece.northwestern.edu/">CUCIS</a> group at the Electrical and Computer Engineering Department at Northwestern University. 
 
+1. Arindam Paul (arindam.paul@eecs.northwestern.edu)
+2. Dipendra Jha (dipendra@u.northwestern.edu)
+3. Reda Al-Bahrani (reda@u.northwestern.edu)
+4. Ankit Agrawal (ankitag@eecs.northwestern.edu)
+5. Wei-keng Liao (wkliao@eecs.northwestern.edu)
+6. Alok Choudhary (choudhar@eecs.northwestern.edu)
+
 
 ## Citation
 If you use this code or data, please cite:
@@ -53,7 +60,7 @@ Arindam Paul, Dipendra Jha, Reda Al-Bahrani, Wei-keng Liao, Alok Choudhary, Anki
 
 ## Questions/Comments:
 
-email: apaul@u.northwestern.edu<br/>
+email: arindam.paul@eecs.northwestern.edu or ankitag@eecs.northwestern.edu</br>
 Copyright (C) 2019, Northwestern University.<br/>
 See COPYRIGHT notice in top-level directory.
 
